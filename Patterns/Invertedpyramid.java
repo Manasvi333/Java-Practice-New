@@ -11,7 +11,7 @@ public class Invertedpyramid {
                     System.out.print("* ");
                 }
             System.out.println();
-        }
+        } 
         sc.close();
     }
 }
