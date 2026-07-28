@@ -6,7 +6,7 @@ public class Table {
         System.out.println("Enter the no.");
         int n=sc.nextInt();
         for(int i=1;i<=10;i++){
-            System.out.println(n*i);
+            System.out.println(n*i); 
         }
         sc.close();
     }
@@ -15,3 +15,4 @@ public class Table {
         table();
     }
 }
+ 
