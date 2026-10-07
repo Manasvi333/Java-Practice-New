@@ -20,5 +20,18 @@ public class Transpose {
 }
 System.out.println();    
         }
+        for(int i=0;i<arr.length;i++){    
+            for(int j=0;j<arr[i].length;j++){    
+                if(arr[i][j]==arr[j][i]){
+                    continue;
+                }
+                else{
+                    System.out.println("The array is not symmetric");
+                    return;
+                }
+            }
+        }
+System.out.println("The array is symmetric");
     }
 }
+
